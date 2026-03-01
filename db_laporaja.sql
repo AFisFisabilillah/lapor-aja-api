@@ -15,3 +15,6 @@ ALTER TABLE users
     ADD COLUMN activated BOOLEAN ,
     ADD COLUMN activation_key VARCHAR(20),
     ADD COLUMN activation_date TIMESTAMP;
+
+ALTER TABLE users
+    ADD COLUMN kelas VARCHAR(10);

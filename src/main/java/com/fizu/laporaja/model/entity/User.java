@@ -51,6 +51,9 @@ public class User extends Auditable implements UserDetails {
     @Column(name = "activation_date")
     private LocalDateTime activationDate;
 
+    @Column(name = "kelas")
+    private String kelas;
+
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
