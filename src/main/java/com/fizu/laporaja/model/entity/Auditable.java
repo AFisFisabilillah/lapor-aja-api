@@ -1,4 +1,4 @@
-package com.fizu.laporaja.model;
+package com.fizu.laporaja.model.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;
